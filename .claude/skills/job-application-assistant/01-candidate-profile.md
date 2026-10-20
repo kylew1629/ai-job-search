@@ -25,7 +25,7 @@ framework_version: 1.1.1
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| B.S. Electrical Engineering | Jan 2024 - May 2026 | Texas A&M University, College Station, TX | Linear Control Systems (A), Undergraduate Research (A), Electric Energy, Power Electronics, Power Management Circuits, Signals & Systems, Electronics, Digital System Design, Computer Architecture, RF & Microwave |
+| B.S. Electrical Engineering | Jan 2024 - May 2026 | Texas A&M University, College Station, TX | Linear Control Systems (A), Undergraduate Research (A), Electric Energy, Power Electronics, Power Management Circuits, Signals & Systems, Random Signals, Electrical & Magnetic Fields, Electronics, Digital System Design, Computer Architecture, RF & Microwave |
 
 - GPA is intentionally left off the CV. On application forms that require it, answer truthfully from the transcript.
 - Transferred from Blinn College; not listed on the CV, but list it on forms that ask for all colleges attended.
