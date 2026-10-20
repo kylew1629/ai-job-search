@@ -4,51 +4,49 @@ framework_version: 1.0.0
 
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+<!-- No formal assessment (PI/DISC/MBTI). Synthesized from Kyle's own answers during /setup. Kept short on purpose: only what he stated. -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Kyle has no formal behavioral assessment. He describes himself as **flexible across work modes** - comfortable with hands-on/field work, desk design work and customer-facing work, at both large and small companies - and feels **strongest at design work**.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Adaptability | High (self-described) | Comfortable switching between field, lab, desk and customer contexts |
+| Design focus | High (self-described) | Feels most capable in design work (schematics, system design) |
+| Hands-on execution | Comfortable | Panel wiring, assembly, QC, prototyping (Hydraquip, capstone) |
+| Customer communication | Demonstrated | Sales calls, demos, spec gathering at Hydraquip |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Design work:** AutoCAD schematics, BOMs, subsystem design (capstone)
+- **Bridging hardware and software:** Modbus data logging, ESP32 + Android app integration
+- **Communicating with customers and teams:** sales calls, demos, technical presentations
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Roles mixing design with hands-on build/test
+- Open to field work (travel up to 35%, no offshore)
+- No preference between large and small companies
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Early-career depth:** frame as fast ramp-up shown across three different engineering environments (lab research, industrial panel shop, energy data)
+- **Licensure:** frame the January 2027 FE exam as an active step toward EIT/PE
 
 ## Mapping to Job Posting Language
 
-When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+Strong behavioral fit:
+- "design and drafting", "schematics", "AutoCAD", "hands-on", "field and office", "customer-facing", "cross-functional"
+- "fast-paced", "wear many hats", "versatile"
 
-When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+Potential friction (not deal-breaker):
+- Travel above 35% or "rotational" field assignments
+- Offshore rotations (deal-breaker)
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Not stated
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** lead with versatility across design, hands-on and customer work, anchored in concrete examples (Hydraquip schematics, REAPERlab logging, capstone app)
+- **CV:** emphasize design + build + data, quantified results
+- **Interviews:** STAR examples from Hydraquip, REAPERlab and capstone (see 07-interview-prep.md)
+- **Don't overstate:** no formal assessment exists; do not claim specific personality traits beyond what is stated here

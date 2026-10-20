@@ -59,7 +59,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Kyle Walcher - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -69,13 +69,13 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
+\name{Kyle}{Walcher}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\address{Houston, TX}{}{}
+\phone[mobile]{713-253-7542}
+\email{kylew1313@yahoo.com}
+\extrainfo{\href{https://www.linkedin.com/in/kyle-walcher-b6636728a/}{linkedin.com/in/kyle-walcher-b6636728a}}
 
 \begin{document}
 \makecvtitle
@@ -137,11 +137,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For power / utility / electrical design roles:**
+> Electrical engineering graduate (Texas A&M, 2026) with hands-on industrial and power-metering experience. Designed AutoCAD schematics and BOMs for 15+ UL industrial projects at Hydraquip, and built a Python Modbus TCP logging system capturing 60+ power-quality registers (voltage, current, THD, harmonics, energy) at REAPERlab. FE exam scheduled January 2027.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For controls / automation / industrial roles:**
+> Electrical engineering graduate (Texas A&M, 2026) who bridges hardware and software: UL panel wiring, AutoCAD schematics and VFD exposure at Hydraquip, Modbus TCP device polling on Raspberry Pi at REAPERlab, and an ESP32 + Android control and monitoring subsystem for a solar lighting capstone. Strong controls foundation (Linear Control Systems, A); FE exam scheduled January 2027.
+
+**For data / technical analyst and EE-adjacent tech roles:**
+> Electrical engineer with a data streak: Python and SQL cost modeling of Gulf of Mexico rigs at Arena Energy, automated Modbus data logging of power-quality metrics at REAPERlab, and a Kotlin Android app with a Flask AI backend (2.3 s average analysis latency) for a senior capstone. Brings engineering judgment to messy real-world data.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 
@@ -312,9 +315,9 @@ Two independent causes, both easy to avoid:
 
 **Cause 1 is mechanical in step 5d**: `python tools/verify_pdf.py cv/main_<company>_<role>.pdf --ascii-dates` scans the raw text layer for a year joined to a Unicode dash and exits 1 naming each hit with its code point (`U+2013 in 'Role Title 2016–2024'`). It deliberately reads the raw layer: the fold that lets `--contains "2016-2024"` match what the template renders maps that same en-dash back to `-`, so `--contains` can never see this. A year on either side of the dash is enough, so `Mar 2016 – Jul 2016` and `2016 – Present` are caught too; a numeric range with no year (`EUR 600k–1M`) is left alone. **Cause 2 stays a read-through check**: after extracting the text layer, confirm every experience entry shows a start *and* an end. Because both failures are silent and invisible in the PDF, the candidate otherwise discovers them only while filling in the application form.
 
-## Page Budget - Hard 2-Page Limit
+## Page Budget - Hard 1-Page Limit (candidate override)
 
-The CV **must** fit on exactly 2 pages when compiled. Use these content limits as a guide:
+Kyle is a US entry-level candidate: the CV **must** fit on exactly 1 page when compiled (this overrides the framework's 2-page default everywhere in this file). Typical order: Profile (2-3 lines) -> Education (with relevant coursework + FE line) -> Experience -> Capstone project -> Skills. Keep the volunteer entry only if space allows. Use these content limits as a guide:
 
 | Section | Max budget |
 |---------|-----------|

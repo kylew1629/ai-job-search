@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python (data logging/scripting/analysis), AutoCAD electrical schematics, industrial panel design & BOMs (UL), Modbus TCP / power metering & power quality, embedded systems (ESP32, Raspberry Pi, Arduino), hands-on panel wiring/QC
+**Moderate match areas:** SQL, Excel analysis, C++, Kotlin/Android, Flask, Firebase, Verilog/FPGA, VFDs, MATLAB, Multisim, PSpice, controls theory (coursework A)
+**Weak match areas:** PLC programming (ladder logic, Rockwell/Siemens), SCADA/HMI platforms, ETAP/SKM power studies, protective relay settings, substation design, NEC-based building design (Revit/MEP), PE/EIT (FE scheduled Jan 2027), cloud/ML engineering, production software engineering, BI tools (Power BI/Tableau)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Industrial electrical panels & schematics (Hydraquip), power metering & data logging (REAPERlab), embedded/IoT prototyping (capstone)
+**Moderate:** Energy-sector data analysis (Arena Energy), customer-facing technical sales support (Hydraquip), Android/app development (capstone)
+**Entry-level:** All roles - candidate is entry-level (new grad, 2026). Score experience against entry-level / new-grad / 0-2 years expectations, not senior bars. Postings requiring 3+ years are a stretch; 5+ years usually a skip.
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -95,6 +95,9 @@ Does the role and company culture match the behavioral profile?
 - Remote with occasional office: PASS
 - Requires relocation: FAIL (deal-breaker)
 - Frequent international travel: FLAG (discuss with user)
+- Travel above 35%: FAIL (deal-breaker)
+- Offshore work or offshore rotations: FAIL (deal-breaker)
+- Outside Houston metro and not remote: FAIL (relocation not wanted right now)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -107,19 +110,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Land a full-time entry-level electrical engineering role in Houston (power, utilities, industrial, automation/controls, panel/design, test, some field)
+- Pass the FE exam (Jan 2027) and progress toward EIT/PE - roles with PE mentorship score higher
+- Secondary track: EE-adjacent tech roles (data analyst, embedded/IoT, controls software, OT/SCADA) that use Python/SQL and hardware knowledge
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: Design work (schematics, system design), building and testing hardware, hardware-software integration
+- Tasks that drain: Not stated - ask the user if a posting is dominated by one narrow repetitive task
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently job searching; stable full-time employment is a priority. Target base $70k-$90k, floor around $72k
+- **Flexibility**: Houston area only; remote/hybrid preferred but not required; travel up to 35% OK; offshore is a deal-breaker
+- **Professional development**: FE/EIT and PE path, mentorship from licensed engineers, broad exposure across design and field
 
 ### 6. Salary Benchmark (Optional)
 

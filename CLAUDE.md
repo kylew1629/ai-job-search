@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Kyle Walcher
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Kyle Walcher, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,79 +10,93 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Kyle Walcher
+- **Location:** Houston, TX, USA (Houston-area roles only for now; remote or hybrid preferred but not required)
+- **Contact:** 713-253-7542 | kylew1313@yahoo.com | https://www.linkedin.com/in/kyle-walcher-b6636728a/
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | English | Native / professional |
+  | Spanish | Basic |
+- **CV language:** English
+- **CV length:** 1 page (US entry-level norm) - overrides the template's 2-page default below
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Recent graduate (BSEE, May 2026), available immediately for a full-time role
+- **LinkedIn headline:** "Electrical Engineer | Power, Controls & Embedded Systems | Python, AutoCAD, ESP32 | FE Exam Jan 2027"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **B.S. Electrical Engineering** (Jan 2024 - May 2026) - Texas A&M University, College Station, TX
+  - Capstone (ECEN 403/404): Solar Home Lighting System - off-grid solar lighting + AI security camera (team of 4; owned the Android app + ESP32 AI camera subsystem)
+  - Relevant coursework: Linear Control Systems (A), Undergraduate Research (A), Electric Energy, Power Electronics, Power Management Circuits, Signals & Systems, Electronics, Digital System Design, Computer Architecture, RF & Microwave
+  - GPA intentionally omitted from CV. If an application form requires it, answer truthfully from the transcript - never misstate it.
+  - Transferred from Blinn College (not listed on CV; list it on forms that ask for all colleges attended)
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Associate Researcher** (Feb 2026 - May 2026) - **REAPERlab, Texas A&M** (College Station, TX)
+  - Built a Python Modbus TCP data-logging system for an Eaton PXG1000 gateway, collecting meter data over COM1/COM2
+  - Developed a Raspberry Pi polling workflow automating CSV logging across Modbus device IDs at 10-20 s intervals
+  - Mapped 60+ registers (voltage, current, THD, harmonic power, frequency, energy) from PXM/AcuDC meter documentation
+- **Electrical Engineering Intern** (May 2025 - Aug 2025) - **Hydraquip Electric Systems** (Houston, TX)
+  - Developed BOMs for 15+ industrial projects, sourcing UL-compliant components
+  - Created and revised electrical schematics in AutoCAD, reducing production time by up to 20%
+  - Customer-facing technical communication: sales calls, demos, gathering specifications on large industrial projects
+  - Panel wiring, subpanel assembly and QC checks to UL standards
+- **Data Engineering Intern** (May 2022 - Jun 2022) - **Arena Energy** (The Woodlands, TX)
+  - Large-scale cost analysis of Gulf of Mexico oil rigs using SQL, Excel and Python (price vs. location, size, depth)
+  - Delivered a technical presentation of findings to the engineering team
+
+### Projects
+- **Solar Home Lighting System - Senior Capstone** (Aug 2025 - May 2026), Texas A&M, team of 4
+  - Owned the Android Application + AI Camera subsystem: Kotlin Android app, ESP32-CAM (XIAO ESP32-S3 Sense) MJPEG streaming over Wi-Fi, Flask AI backend for scene analysis, Firebase storage
+  - App displays live video, battery/system status and push alerts, and controls lighting (on/off) remotely
+  - Validated: 2.3 s average end-to-end AI analysis latency (target < 5 s, 10 trials); 92% camera connection reliability (23/25); stable FPS over 60 s streaming test
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python (data logging, scripting, analysis), AutoCAD electrical schematics, industrial panel design/BOMs (UL), Modbus TCP / power metering, embedded systems (ESP32, Raspberry Pi, Arduino)
+- **Secondary:** SQL, C++, Verilog, FPGA, Kotlin/Android, Flask, Firebase, VFDs, MATLAB, Multisim
+- **Domain:** Power quality & metering, industrial electrical/panels, controls, embedded/IoT, energy-sector data analysis
+- **Software & tools:** AutoCAD, MATLAB, Multisim, PSpice, Excel, Word, PowerPoint; oscilloscopes, multimeters, breadboarding
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Microsoft Office (Word, Excel, PowerPoint)** - certified
+- **FE Electrical & Computer exam** - scheduled January 2027 (EIT candidate)
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None listed
+
+### Leadership & Community
+- **Volunteer, Brazos Valley Food Bank** (Sep 2023 - May 2026): managed 200+ food ticket orders weekly; coordinated kitchen operations and delivery logistics supporting 3,000+ meals/month
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Flexible and adaptable** - comfortable with hands-on lab/field work, desk design work, and customer-facing work; no strong preference between large and small companies
+- **Design-oriented** - feels strongest at design work (schematics, system design)
+- **Strengths:** design work, hands-on build/test, customer communication, bridging hardware and software
+- **Growth areas:** (not stated)
+- **Thrives in:** mixed design + hands-on roles; open to any company size
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Design work - electrical schematics and system design
+- Projects that bridge hardware and software (embedded, data logging, apps)
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Utilities & power: CenterPoint Energy, Entergy Texas, ERCOT-adjacent firms
+- Electrical equipment & automation: Siemens, Schneider Electric, ABB, Eaton, Emerson, Rockwell partners/integrators
+- Engineering & design consultancies (EPC): Burns & McDonnell, Kiewit, Black & Veatch, Wood, KBR, Worley, Jacobs
+- Industrial panel builders & system integrators (Houston-area)
+- Energy / oil & gas onshore engineering and data roles
+- Adjacent tech: data analyst, embedded/IoT, controls software, OT/SCADA
+
+### Salary
+- Target $70k-$90k base; floor around $72k
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Travel above 35%
+- Offshore work
+- Roles outside the Houston area unless remote
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
@@ -118,7 +129,7 @@ After creating or updating a CV or cover letter, re-read the generated file and 
 - [ ] Nice-to-have requirements are highlighted where there is a match
 
 ### Consistency
-- [ ] CV follows the standard 2-page moderncv/banking format
+- [ ] CV follows the moderncv/banking format at 1 page (US entry-level norm - see Identity)
 - [ ] Cover letter uses cover.cls template and established structure
 - [ ] Tone is consistent across CV and cover letter
 - [ ] No contradictions between CV and cover letter content
@@ -134,7 +145,7 @@ After creating or updating a CV or cover letter, re-read the generated file and 
 ### Compiled PDF verification (MANDATORY - never skip)
 Both documents MUST be compiled and visually inspected via the Read tool on the PDF output. "Looks fine in the .tex" is not acceptable - LaTeX page-break decisions are unpredictable. Iterate until these all pass:
 - [ ] CV compiled with **lualatex** (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors). Cover letter compiled with **xelatex** (cover.cls requires fontspec). If a custom template is active (registered via `/add-template`), compile with its declared command instead — see the `ACTIVE-TEMPLATE` block in `05-cv-templates.md`/`06-cover-letter-templates.md`.
-- [ ] **CV is exactly 2 pages** - not 1, not 3
+- [ ] **CV is exactly 1 page** (US entry-level norm for this candidate)
 - [ ] **No orphaned `\cventry` titles** - a job/education title must never sit at the bottom of a page with its bullets spilling to the next page. Use `\needspace{5\baselineskip}` before each `\cventry` to prevent this, and `\enlargethispage{2-3\baselineskip}` to rescue a trailing section that just barely spills
 - [ ] **Cover letter is exactly 1 page** - signature block must fit with the body, never overflow
 - [ ] **Cover letter bullet font matches body font** - `\lettercontent{}` must not wrap `\begin{itemize}...\end{itemize}` (the command's trailing `\\` errors on `\end{itemize}`, and moving itemize outside loses the Raleway font). Standard pattern: close `\lettercontent{}`, then wrap the list in `{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont \begin{itemize}...\end{itemize}\par}`

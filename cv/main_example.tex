@@ -1,12 +1,12 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - Kyle Walcher
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
+%% 1-page US entry-level format (letterpaper).
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[11pt,letterpaper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
@@ -40,23 +40,21 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Kyle Walcher - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
     pdfpagemode=UseNone,
 }}
-\usepackage[scale=0.80]{geometry}
+\usepackage[scale=0.88]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-% If you have no address to list, DELETE this whole line. \address{}{}{} fails
-% with "There's no line here to end" on every moderncv version.
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Kyle}{Walcher}
+\address{Houston, TX}{}{}
+\phone[mobile]{713-253-7542}
+\email{kylew1313@yahoo.com}
+\extrainfo{\href{https://www.linkedin.com/in/kyle-walcher-b6636728a/}{linkedin.com/in/kyle-walcher-b6636728a}}
 
 \begin{document}
 
@@ -66,125 +64,84 @@
 %     PROFILE STATEMENT
 % ============================================================
 
-\vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
-
-% ============================================================
-%     CORE COMPETENCIES
-% ============================================================
-
-\section{Core Competencies}
-\vspace{1pt}
-\begin{itemize}
-
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
-
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
-
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
-
-\end{itemize}
-
-% ============================================================
-%     PROFESSIONAL EXPERIENCE
-% ============================================================
-
-\section{Professional Experience}
-\vspace{3pt}
-\begin{itemize}
-
-% --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item {[Achievement or responsibility 1 - be specific, use numbers where possible]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
-    \item {[Achievement or responsibility 4]}
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
-\end{itemize}}}
-
-\end{itemize}
+\vspace{-4pt}
+\small{Electrical engineering graduate (Texas A\&M, 2026) with hands-on industrial, power-metering and embedded experience. Designed AutoCAD schematics and BOMs for 15+ UL industrial projects, automated Modbus TCP logging of 60+ power-quality registers in Python, and built the ESP32 camera and Android app subsystem of a solar lighting capstone. FE Electrical \& Computer exam scheduled January 2027.}
 
 % ============================================================
 %     EDUCATION
 % ============================================================
 
 \section{Education}
-\vspace{1pt}
 \begin{itemize}
-
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2024--2026}{B.S. Electrical Engineering}{Texas A\&M University}{College Station, TX}{}{\vspace{1pt}
+Relevant coursework: Linear Control Systems, Electric Energy, Power Electronics, Power Management Circuits, Signals \& Systems, Electronics, Digital System Design, Undergraduate Research. \\
+FE Electrical \& Computer exam scheduled January 2027 (EIT candidate).
 }}
+\end{itemize}
 
-\vspace{3pt}
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\section{Experience}
+\begin{itemize}
+
+\item{\cventry{2026}{Associate Researcher}{REAPERlab, Texas A\&M}{College Station, TX}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Built a Python Modbus TCP data-logging system for an Eaton PXG1000 gateway, collecting electrical data through COM1 and COM2 ports}
+    \item {Developed a Raspberry Pi polling workflow automating CSV logging across Modbus device IDs at 10--20 second intervals}
+    \item {Mapped 60+ registers for voltage, current, THD, harmonic power, frequency and energy using PXM/AcuDC meter documentation}
+\end{itemize}}}
+
+\item{\cventry{2025}{Electrical Engineering Intern}{Hydraquip Electric Systems}{Houston, TX}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Created and revised complex electrical schematics in AutoCAD, reducing production time by up to 20\%}
+    \item {Developed bills of materials for 15+ industrial projects, ensuring correct sourcing of UL-compliant components}
+    \item {Performed panel wiring, subpanel assembly and quality-control checks in accordance with UL standards}
+    \item {Supported customers on large industrial projects: attended sales calls, gave demos and gathered specifications}
+\end{itemize}}}
+
+\item{\cventry{2022}{Data Engineering Intern}{Arena Energy}{The Woodlands, TX}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Analyzed Gulf of Mexico oil rig costs with SQL, Excel and Python, modeling price against location, size and water depth}
+    \item {Presented analysis insights and supporting data to a team of engineers}
+\end{itemize}}}
 
 \end{itemize}
 
 % ============================================================
-%     LANGUAGES
+%     PROJECTS
 % ============================================================
 
-\section{Languages}
-\vspace{1pt}
+\section{Projects}
 \begin{itemize}
-\item {[Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).}
+\item{\cventry{2025--2026}{Solar Home Lighting System -- Senior Capstone}{Texas A\&M}{Team of 4}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Owned the AI camera and app subsystem: Kotlin Android app streaming MJPEG from an ESP32-CAM over Wi-Fi, with a Flask AI backend, Firebase storage, push alerts and remote lighting control}
+    \item {Validated 2.3 s average AI analysis latency (target under 5 s) and 92\% camera connection reliability over 25 trials}
+\end{itemize}}}
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     SKILLS
 % ============================================================
 
-\section{Publications}
-\vspace{1pt}
+\section{Skills}
 \begin{itemize}
-\item {[Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}}
+\item \textbf{Programming}: Python (data logging, scripting, analysis), SQL, C++, Kotlin, Verilog
+\item \textbf{Hardware}: ESP32, Raspberry Pi, Arduino, FPGA, VFDs, Modbus TCP, panel wiring (UL), oscilloscopes, multimeters
+\item \textbf{Software}: AutoCAD (electrical schematics), MATLAB, Multisim, PSpice, Microsoft Office (certified)
+\item \textbf{Languages}: English (native), Spanish (basic)
 \end{itemize}
 
 % ============================================================
-%     HONORS AND AWARDS (optional)
+%     LEADERSHIP
 % ============================================================
 
-\section{Honors and Awards}
-\vspace{1pt}
+\enlargethispage{3\baselineskip}
+\section{Leadership \& Community}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
-\end{itemize}
-
-% ============================================================
-%     REFERENCES
-% ============================================================
-
-\section{References}
-\vspace{1pt}
-\begin{itemize}
-\item{Available upon request.}
+\item {\textbf{Volunteer, Brazos Valley Food Bank} (2023--2026): directed 200+ food orders weekly and coordinated kitchen and delivery logistics supporting 3,000+ meals per month}
 \end{itemize}
 
 \end{document}
